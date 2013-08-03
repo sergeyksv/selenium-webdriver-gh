@@ -30,6 +30,7 @@ exports.EventEmitter = base.require('webdriver.EventEmitter');
 exports.Session = base.require('webdriver.Session');
 exports.WebDriver = base.require('webdriver.WebDriver');
 exports.WebElement = base.require('webdriver.WebElement');
+exports.FileDetector = base.require('webdriver.FileDetector');
 
 exports.__defineGetter__('Key', function() {
   return base.require('webdriver.Key');
