@@ -1,3 +1,12 @@
+# NOTE
+
+This is a fork of nodejs selenium webdriver client with few additions. 
+It is created mostly because official source trunk at google code is not convinient to use
+
+Current version has following additions:
+- Support of remote file upload and driver.setFileDetector
+
+
 # selenium-webdriver
 
     var webdriver = require('selenium-webdriver');
